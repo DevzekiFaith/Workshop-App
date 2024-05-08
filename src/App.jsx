@@ -9,6 +9,7 @@ import NotFoundPage from "./Pages/NotFoundPage/NotFoundPage"
 import './App.css'
 import Header from "./Component/Header/Header"
 import Footer from "./Component/Footer/Footer"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
