@@ -17,13 +17,13 @@ const Method = () => {
     <div className="">
       <div className='bg-white xl:p-0'>
 
-        {/* THIS IS THE HEADER SECTION */}
+        {/* THIS IS THE HEADER MAIN SECTION 1 */}
 
-        <header className=''>
+        <header className='main'>
 
           <div className='relative'>
             <img className='shadow-4xl w-[100%] xl:ml-0' src={HeroImage} placeholder="Blur" alt="Hero Image" />
-            <div className='absolute xl:top-[7rem] xl:left-[28rem] left-0 top-0 md:left-[12rem] md:top-[3rem] xl:ml-[-1rem] ml-[2.4rem] sm:ml-[8rem] sm:mt-[1.4rem]'>
+            <div className='absolute xl:top-[7rem] xl:left-[32rem] left-0 top-0 md:left-[12rem] md:top-[3rem] xl:ml-[-1rem] ml-[2.4rem] sm:ml-[8rem] sm:mt-[1.4rem]'>
               <h1 className='text-white xl:font-extrabold xl:text-3xl xl:mb-[1.5rem] text-center mt-[1rem] font-bold md:text-[1.5rem] '>The Method of  WorkshopApp </h1>
               <p className='text-white text-xs w-[380px] xl:w-[500px] xl:text-sm text-center  '>Below is a step by step representation of the hiring process of WorkshopApp</p>
             </div>
