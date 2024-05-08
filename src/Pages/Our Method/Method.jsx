@@ -154,7 +154,7 @@ const Method = () => {
                 </div>
               </div>
 
-              {/* // LAST CIRCLE FOR THE CIRCULAR CHART 05 */}
+              {/* // LAST CIRCLE FOR THE CIRCULAR CHART 05/06/07*/}
 
               <div className=' flex justify-between items-center p-[4rem] xl:flex-row flex-col gap-[2rem]'>
                 <div className='bg-slate-900 rounded-full w-[1.5rem] relative xl:block hidden'>
