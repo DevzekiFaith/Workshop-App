@@ -1,11 +1,21 @@
-import React from 'react'
+// import React from 'react'
+
+import Navbar from "./Navbar";
+import Products from "./Products";
+import Statistics from "./Statistics";
 
 const OurPortFolio = () => {
-  return (
-    <div>
-      <h1>This is our PortFolio App</h1>
-    </div>
-  )
+ const className = "max-w-6xl  w-10/12 mt-10 py-8 m-auto";
+ return (
+   <>
+    
+     <section className={`${className}`}>
+       <h2 className="text-center text">our porfolio</h2>
+       <Statistics />
+       <Products />
+     </section>
+   </>
+ );
 }
 
 export default OurPortFolio

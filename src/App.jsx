@@ -9,6 +9,15 @@ import NotFoundPage from "./Pages/NotFoundPage/NotFoundPage"
 import './App.css'
 import Header from "./Component/Header/Header"
 import Footer from "./Component/Footer/Footer"
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
+
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      staleTime: 60 * 1000,
+    },
+  },
+});
 
 function App() {
 
@@ -16,6 +25,7 @@ function App() {
   return (
     <>
       <div>
+        <QueryClientProvider client={queryClient}>
         <Header/>
         <Routes>
           <Route path="/" element={<Home /> } />
@@ -27,6 +37,7 @@ function App() {
           <Route path="*" element={<NotFoundPage/> } />
         </Routes>
           <Footer/>
+        </QueryClientProvider>
       </div>
     </>
   )
