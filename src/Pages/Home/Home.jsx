@@ -13,7 +13,8 @@ const Home = () => {
         Explore the 24 apps with unique solutions and their metrics
       </p>
       <img className='image' src={image} alt="" />
-      <a className='text-decoration-none' href='#'>
+      <a className='text-decoration-none' href='Portfolio
+      '>
         <button className='homebtn'>
           <span className='textbtn'>Our Portfolio</span> <GoArrowRight className='iconbtn' />
         </button>

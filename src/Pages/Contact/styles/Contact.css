@@ -1,0 +1,48 @@
+* {
+  font-family: "Work Sans", sans-serif;
+}
+.contacth1 {
+  font-weight: 400;
+  text-align: center;
+}
+.contactp {
+  text-align: center;
+  font-size: 14px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+.infobody {
+  padding: 1rem;
+}
+.infoh2 {
+  font-weight: 400;
+  font-size: 20px;
+  padding-bottom: 1rem;
+}
+.infoh3 {
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom: 0.3rem;
+}
+.infoh6 {
+  font-size: 12px;
+  font-weight: 300;
+  padding-bottom: 1rem;
+}
+.profilelinks {
+  width: 18px;
+}
+.links {
+  display: flex;
+  gap: 1.5rem;
+}
+@media (min-width: 1024px) {
+  .contactflex {
+    padding-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-right: 5rem;
+  }
+  .infobody {
+    padding-left: 8rem;
+  }
+}

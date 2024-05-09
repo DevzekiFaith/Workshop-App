@@ -1,7 +1,10 @@
 #root {
-    text-align: center;
+    /* text-align: center; */
   }
   
+  .toportfolio{
+    text-align: center;
+  }
   .section1{
     background-color: #292D32;
     width: 90%;
@@ -80,6 +83,9 @@
   }
   .ourteam{
     color: #292D32;
+  }
+  .fw-bold{
+    text-align: center;
   }
   .section2{
     max-width: 680px;
